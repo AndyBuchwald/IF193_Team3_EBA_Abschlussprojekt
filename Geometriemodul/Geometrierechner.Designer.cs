@@ -37,20 +37,21 @@
             // 
             // BtnGeoEinstellungen
             // 
-            this.BtnGeoEinstellungen.Location = new System.Drawing.Point(295, 1);
-            this.BtnGeoEinstellungen.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnGeoEinstellungen.Location = new System.Drawing.Point(393, 1);
+            this.BtnGeoEinstellungen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnGeoEinstellungen.Name = "BtnGeoEinstellungen";
-            this.BtnGeoEinstellungen.Size = new System.Drawing.Size(32, 38);
+            this.BtnGeoEinstellungen.Size = new System.Drawing.Size(43, 47);
             this.BtnGeoEinstellungen.TabIndex = 9;
+            this.BtnGeoEinstellungen.Text = "⚙";
             this.BtnGeoEinstellungen.UseVisualStyleBackColor = true;
             this.BtnGeoEinstellungen.Click += new System.EventHandler(this.BtnGeoEinstellungen_Click);
             // 
             // BtnGeoSchliessen
             // 
-            this.BtnGeoSchliessen.Location = new System.Drawing.Point(332, 1);
-            this.BtnGeoSchliessen.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnGeoSchliessen.Location = new System.Drawing.Point(443, 1);
+            this.BtnGeoSchliessen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnGeoSchliessen.Name = "BtnGeoSchliessen";
-            this.BtnGeoSchliessen.Size = new System.Drawing.Size(34, 38);
+            this.BtnGeoSchliessen.Size = new System.Drawing.Size(45, 47);
             this.BtnGeoSchliessen.TabIndex = 8;
             this.BtnGeoSchliessen.Text = "X";
             this.BtnGeoSchliessen.UseVisualStyleBackColor = true;
@@ -58,10 +59,10 @@
             // 
             // BtnGeoParallelogramm
             // 
-            this.BtnGeoParallelogramm.Location = new System.Drawing.Point(12, 203);
-            this.BtnGeoParallelogramm.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnGeoParallelogramm.Location = new System.Drawing.Point(16, 250);
+            this.BtnGeoParallelogramm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnGeoParallelogramm.Name = "BtnGeoParallelogramm";
-            this.BtnGeoParallelogramm.Size = new System.Drawing.Size(197, 19);
+            this.BtnGeoParallelogramm.Size = new System.Drawing.Size(263, 23);
             this.BtnGeoParallelogramm.TabIndex = 7;
             this.BtnGeoParallelogramm.Text = "Parallelogramm";
             this.BtnGeoParallelogramm.UseVisualStyleBackColor = true;
@@ -69,9 +70,10 @@
             // 
             // BtnGeoKreis
             // 
-            this.BtnGeoKreis.Location = new System.Drawing.Point(12, 151);
+            this.BtnGeoKreis.Location = new System.Drawing.Point(16, 186);
+            this.BtnGeoKreis.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnGeoKreis.Name = "BtnGeoKreis";
-            this.BtnGeoKreis.Size = new System.Drawing.Size(197, 23);
+            this.BtnGeoKreis.Size = new System.Drawing.Size(263, 28);
             this.BtnGeoKreis.TabIndex = 6;
             this.BtnGeoKreis.Text = "Kreis";
             this.BtnGeoKreis.UseVisualStyleBackColor = true;
@@ -79,9 +81,10 @@
             // 
             // BtnGeoDreieck
             // 
-            this.BtnGeoDreieck.Location = new System.Drawing.Point(12, 94);
+            this.BtnGeoDreieck.Location = new System.Drawing.Point(16, 116);
+            this.BtnGeoDreieck.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnGeoDreieck.Name = "BtnGeoDreieck";
-            this.BtnGeoDreieck.Size = new System.Drawing.Size(197, 23);
+            this.BtnGeoDreieck.Size = new System.Drawing.Size(263, 28);
             this.BtnGeoDreieck.TabIndex = 5;
             this.BtnGeoDreieck.Text = "Dreieck";
             this.BtnGeoDreieck.UseVisualStyleBackColor = true;
@@ -89,14 +92,15 @@
             // 
             // Geometrierechner
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(417, 285);
+            this.ClientSize = new System.Drawing.Size(556, 351);
             this.Controls.Add(this.BtnGeoEinstellungen);
             this.Controls.Add(this.BtnGeoSchliessen);
             this.Controls.Add(this.BtnGeoParallelogramm);
             this.Controls.Add(this.BtnGeoKreis);
             this.Controls.Add(this.BtnGeoDreieck);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Geometrierechner";
             this.Text = "Geometrierechner";
             this.ResumeLayout(false);
